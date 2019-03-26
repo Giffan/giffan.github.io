@@ -1,0 +1,52 @@
+/*задать бокс сайз для всех элементов*/
+*{
+    box-sizing: border-box;
+}
+.logo {
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 0;
+}
+.menu1 li {
+    display: inline-block;
+}
+.menu1 {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 50%;
+}
+.header {
+    margin: 10px 10px;
+    position: relative;
+}
+.content {
+    /*padding ;*/
+    margin: 10px 10px;
+}
+.content p {
+    padding: 10px 10px;
+}
+.menu2 {
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+}
+.menu2 li {
+    display: inline-block;
+}
+.footer {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+}
+.footer p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
