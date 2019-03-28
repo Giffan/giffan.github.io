@@ -1,0 +1,46 @@
+.flexbox {
+    height: 500px;
+    width: 1500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox-item {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    border: 2px solid green;
+    margin: 10px 10px;
+}
+.position {
+    height: 500px;
+    width: 1500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: magenta;
+
+}
+.posotionbox-item {
+    width: 200px;
+    height: 200px;
+    background: grey;
+    border: 2px solid deeppink;
+    margin: 10px 10px;
+}
+.posrel {
+    position: relative;
+    top: 20px;
+}
+.posfixed {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: grey;
+    border: 2px solid deeppink;
+    margin: 10px 10px;
+}

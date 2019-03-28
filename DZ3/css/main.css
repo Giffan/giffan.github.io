@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, sans-serif;
+}
+h1 {
+   color: #3583b0;
+   font-size: 50px;
+   text-decoration: underline;
+   text-align: center;
+}
+.fotobig img {
+    width: 310px;
+    height: 416px;
+}
+.fotosmall img {
+    width: 40px;
+    height: 100px;
+}
+.fotobig {
+    position: relative;
+}
+.fotosmall {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.dispram {
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 30px;
+}
+h2 {
+    text-align: start;
+    border-bottom: 1px solid gray;
+}
+.main {
+    padding: 0 100px;
+    display: inline-block;
+    display: flex;
+}
+.tovar {
+    border: 1px solid gray;
+    margin: 0 auto;
+    width: 1000px;
+}
+.header {
+    margin: 0 auto;
+    width: 1000px;
+}
+.kartatovara, .article {
+    float: left;
+    width: 50%;
+    font-size: 27px;
+    opacity: 0.6;
+}
+ .article {
+     text-align: right;
+}
+.discriptoin {
+    padding: 0 100px;
+}
+.coment {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+a {
+    color: #3583b0;
+}
+.skidka {
+    position: absolute;
+    z-index: 2;
+    transform: translate(-60px,-70px);
+}
+.skidka img {
+    width: 130px;
+    height: 130px;
+    opacity: 0.6;
+}
