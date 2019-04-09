@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: auto;
+    height: 600px;
+    max-width: 1600px;
+    background-color: rgba(29, 8, 78, 0.79);
+}
+
+.header__Logo {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.header__Logo-img {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #00e0d0;
+    margin-top: 15px;
+
+}
+
+.header__Menu-list {
+    display: flex;
+    text-transform: uppercase;
+    list-style-type: none;
+    position: relative;
+
+}
+
+.header__Menu-list-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    justify-content: flex-end;
+    color: white;
+    font-weight: bold;
+
+}
+.header__Menu-list-item:hover {
+    color: #00e0d0;
+
+}
+
+.header__Title {
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+    /*border-bottom: 1px solid #00e0d0;*/
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.header__Text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.header__Button {
+    border: 1px solid #00e0d0;
+    margin: 0 auto;
+    width: 11%;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 200px;
+    color: #00e0d0;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.header__Button-text {
+
+}
