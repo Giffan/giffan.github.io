@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -17,6 +18,7 @@
              <!-- /.divheader__logo -->
              <nav class="mainMenu">
                  <ul class="mainMenu__items">
+                     <li class="mainMenu__item"><i class="fas fa-bars"></i></li>
                      <li class="mainMenu__item mainMenu__item-active"><a href="#">Home</a></li>
                      <li class="mainMenu__item"><a href="#">About</a></li>
                      <li class="mainMenu__item"><a href="#">Expertise</a></li>
@@ -148,6 +150,7 @@
     </section>
     <!-- /.expertise -->
     <section class="ourTeam">
+            <div class="ourTeam__overlay">
                 <div class="ourTeam__content">
                         <div class="ourTeam__title">
                             <h2>Meet our amazing team</h2>
@@ -202,6 +205,9 @@
                 <!-- /.ourTeam__slogan -->
                 <div class="mainButton-ourTeam">We are hiring</div>
                 <!-- /.mainButton -->
+                <div class="mainSlider__line-ourTeam"></div>
+
+            </div>
             </section>
     <!-- /.ourTeam -->
     <section class="ourWorks">
@@ -274,10 +280,51 @@
         <div class="clients__text">
             <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
         </div>
-        <!-- /.clients__text -->
+         <!--/.clients__text -->
+            <div class="clientsSlider">
+                    <p class="clientsSlider__title">JANE GALADRIEL</p>
+                    <p class="clientsSlider__worker">CEO TENGKUREP</p>
+                <ul class="sliderPhoto">
+                    <li><img src="img/slider/sl1.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl2.png" alt="photo of clients"></li>
+                    <li class="sliderPhoto-active"><img src="img/slider/sl3.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl4.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl5.png" alt="photo of clients"></li>
+                </ul>
+            </div>
+             <!--/.clients__slider -->
+
         </div>
         <!-- /.clients__content -->
     </section>
     <!-- /.clients -->
+    <section class="formClients">
+        <form class="form" action="#" id="contact">
+            <h2 class="form__title">Give us a good news</h2>
+            <input name="name" type="text" placeholder="Name">
+            <input name="Email" type="text" placeholder="Email">
+            <input name="Subject" type="text" placeholder="Subject">
+            <input name="Your Massage" type="text" placeholder="Your Massage">
+            <input class="submitButton" type="submit" value="Submit">
+        </form>
+            <div class="happyClients">
+                <h2 class="happyClients__title">Our happy client</h2>
+                    <div class="happyClientsBlock">
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Zara.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Barneys.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Calvin.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Converse.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Levis.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Mango.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Gucci.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/nike.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Puma.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Billabong.png" alt="Our happy client"></div>
+                    </div>
+                    <!-- /.happyClients__right -->
+            </div>
+        <!-- /.happyClients -->
+    </section>
+    <!-- /.form -->
 </body>
 </html>
