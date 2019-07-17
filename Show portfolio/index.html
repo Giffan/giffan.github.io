@@ -1,0 +1,398 @@
+<!DOCTYPE HTML>
+<html lang="us">
+<head>
+    <title>Project final</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+
+    });
+    </script>
+</head>
+<body>
+ <section class="page">
+          <div class="wraper">
+         <header class="header">
+             <div class="header__logo">
+                 <img src="img/logo1.png" alt="main logo">
+             </div>
+             <!-- /.divheader__logo -->
+             <nav class="mainMenu">
+                 <div class="mainMenu__item-burger"><i class="fas fa-bars"></i></div>
+                 <ul class="mainMenu__items">
+                     <li class="mainMenu__item mainMenu__item-active"><a href="#">Home</a></li>
+                     <li class="mainMenu__item"><a href="#story">About</a></li>
+                     <li class="mainMenu__item"><a href="#expert">Expertise</a></li>
+                     <li class="mainMenu__item"><a href="#team">Teams</a></li>
+                     <li class="mainMenu__item"><a href="#work">Works</a></li>
+                     <li class="mainMenu__item"><a href="#people">People say</a></li>
+                     <li class="mainMenu__item"><a href="#cont">Contact</a></li>
+                 </ul>
+                 <!--/.mainMenu__items-->
+             </nav>
+             <!--/.mainMenu-->
+         </header>
+         <!-- /.header -->
+         <div class="mainSlider">
+             <div class="mainSlider__content">
+                 <ul class="mainSlider__items">
+                     <li class="mainSlider__item">
+                         <h1 class="mainTitle">We Are Awesome Creative Agency</h1>
+                         <!-- /.nainTitle -->
+                         <div class="mainSlider__line"></div>
+                         <!-- /.mainSlider__line -->
+                         <p class="sliderContent">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                         <!-- /.sliderContent -->
+                         <div class="mainButton">Learm more</div>
+                         <!-- /.mainButton -->
+                     </li>
+                     <!-- /.mainSlider__item -->
+                 </ul>
+                 <!-- /.mainSlider__items -->
+             </div>
+             <!-- /.mainSlider__content -->
+             <div class="sliderDotted">
+                 <div class="sliderDotted__item sliderDotted__item-active"></div>
+                 <!-- /.sliderDotted_item -->
+                 <div class="sliderDotted__item"></div>
+                 <!-- /.sliderDotted_item -->
+                 <div class="sliderDotted__item"></div>
+                 <!-- /.sliderDotted_item -->
+                 <div class="sliderDotted__item"></div>
+                 <!-- /.sliderDotted_item -->
+             </div>
+             <!-- /.sliderDotted -->
+         </div>
+         <!-- /.mainSlider -->
+     </div>
+     <!-- /.wraper -->
+ </section>
+<!--/.page-->
+  <section class="content" id="story">
+      <div class="icon">
+          <img src="img/logo2.png" alt="logo 2">
+      </div>
+      <!-- /.icon -->
+      <div class="asideText">
+          <h2 class="asideText__title">Our story</h2>
+            <!-- /.textTitle -->
+          <p class="asideText__content">His is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</p>
+          <br>
+          <p class="asideText__content">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <!-- /.contentText -->
+      </div>
+      <!-- /.asideText -->
+  </section>
+  <!-- /.content -->
+ <div class="mainButton">Learm more</div>
+ <!-- /.mainButton -->
+    <section class="sectionVideo">
+        <div class="wrapVideo">
+            <div class="wrapVideo__button">
+                <a href="#"><img src="img/play.png" alt="play"></a>
+            </div>
+            <!-- /.wrapVideo__button -->
+            <p class="wrapVideo__text">Watch our story</p>
+            <!-- /.wrapVideo__text -->
+        </div>
+        <!-- /.wrapVideo -->
+    </section>
+    <!-- /.sectionVideo -->
+    <section class="expertise" id="expert">
+        <div class="expertise__title">
+            <h2>Expertise</h2>
+        </div>
+        <!-- /.expertise__title -->
+        <div class="expertise__text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, nihil</p>
+        </div>
+        <!-- /.expertise__text -->
+        <div class="expertise__line"></div>
+        <!-- /.expertise__line -->
+        <div class="expertiseContent">
+            <div class="expertiseContent__box">
+                <img src="img/web.png" alt="web design">
+                <h3>Web design & development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+             </div>
+            <!-- /.expertiseContent__box -->
+            <div class="expertiseContent__box">
+                <img src="img/branding.png" alt="branding">
+                <h3>Branding identity</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+            </div>
+            <!-- /.expertiseContent__box -->
+            <div class="expertiseContent__box">
+                <img src="img/mobile.png" alt="mobile app">
+                <h3>Mobile app</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+            </div>
+            <!-- /.expertiseContent__box -->
+            <div class="expertiseContent__box">
+                <img src="img/search.png" alt="search">
+                <h3>Search engine optimization</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+            </div>
+            <!-- /.expertiseContent__box -->
+            <div class="expertiseContent__box">
+                <img src="img/game.png" alt="game">
+                <h3>Game development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+            </div>
+            <!-- /.expertiseContent__box -->
+            <div class="expertiseContent__box">
+                <img src="img/love.png" alt="love">
+                <h3>Made with love</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi doloremque eveniet ratione recusandae rerum voluptates.</p>
+            </div>
+            <!-- /.expertiseContent__box -->
+        </div>
+        <!-- /.expertise__content -->
+    </section>
+    <!-- /.expertise -->
+    <section class="ourTeam" id="team">
+            <div class="ourTeam__overlay">
+                <div class="ourTeam__content">
+                        <div class="ourTeam__title">
+                            <h2>Meet our amazing team</h2>
+                        </div>
+                        <!-- /.expertise__title -->
+                        <div class="ourTeam__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        </div>
+                        <!-- /.expertise__text -->
+                        <div class="ourTeam__line"></div>
+                        <!-- /.expertise__line -->
+                </div>
+                <!-- /.ourTeam__content -->
+                <div class="ourTeam__foto">
+                    <div class="ourTeam__fotoBox">
+                        <img src="img/foto_worker1.jpg" alt="foto worker">
+                        <p class="ourTeam__name">Semf Ucuk</p>
+                        <!-- /.ourTeam__name -->
+                        <p class="ourTeam__work">Ceo & founder</p>
+                        <!-- /.ourTeam__work -->
+                    </div>
+                    <!-- /.ourTeam__fotoBox -->
+                    <div class="ourTeam__fotoBox">
+                        <img class="ourTeam__fotoBox-small" src="img/foto_worker2.jpg" alt="foto worker">
+                        <p class="ourTeam__name">Dik Adalin</p>
+                        <!-- /.ourTeam__name -->
+                        <p class="ourTeam__work">Engineering</p>
+                        <!-- /.ourTeam__work -->
+                    </div>
+                    <!-- /.ourTeam__fotoBox -->
+                    <div class="ourTeam__fotoBox">
+                        <img class="ourTeam__fotoBox-small" src="img/foto_worker3.jpg" alt="foto worker">
+                        <p class="ourTeam__name">Jeng kol</p>
+                        <!-- /.ourTeam__name -->
+                        <p class="ourTeam__work">Designer</p>
+                        <!-- /.ourTeam__work -->
+                    </div>
+                    <!-- /.ourTeam__fotoBox -->
+                    <div class="ourTeam__fotoBox">
+                        <img class="ourTeam__fotoBox-small" src="img/foto_worker4.jpg" alt="foto worker">
+                        <p class="ourTeam__name">Pet Romak</p>
+                        <!-- /.ourTeam__name -->
+                        <p class="ourTeam__work">Marketing</p>
+                        <!-- /.ourTeam__work -->
+                    </div>
+                    <!-- /.ourTeam__fotoBox -->
+                </div>
+                <!-- /.ourTeam__foto -->
+                <div class="ourTeam__slogan">
+                    <p>Become part of our dream team, let’s join us !</p>
+                </div>
+                <!-- /.ourTeam__slogan -->
+                <div class="mainButton-ourTeam">We are hiring</div>
+                <!-- /.mainButton -->
+                <div class="mainSlider__line-ourTeam"></div>
+
+            </div>
+            </section>
+    <!-- /.ourTeam -->
+    <section class="ourWorks" id="work">
+        <div class="ourWorks__title">
+            <h2>Our works</h2>
+            <a href="#">See All Project in dribbble ></a>
+        </div>
+        <!-- /.ourWorks__title -->
+        <div class="ourWorks__content">
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images1.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images2.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images3.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images4.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images5.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images4.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images3.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images2.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+            <div class="ourWorks__box">
+                <a href="#"><img src="img/images1.jpg" alt=""></a>
+            </div>
+            <!-- /.ourWorks__box -->
+        </div>
+        <!-- /.ourWorks__content -->
+        <div class="mainButton-loadMore">Load more</div>
+        <!-- /.mainButton -->
+    </section>
+    <!-- /.ourWorks -->
+    <section class="clients" id="people">
+        <div class="clients__content">
+            <div class="clients__logo">
+            <img src="img/clients.png" alt="clients logo">
+        </div>
+        <!-- /.clients__logo -->
+        <div class="clients__text">
+            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+        </div>
+         <!--/.clients__text -->
+            <div class="clientsSlider">
+                    <p class="clientsSlider__title">JANE GALADRIEL</p>
+                    <p class="clientsSlider__worker">CEO TENGKUREP</p>
+                <ul class="sliderPhoto">
+                    <li><img src="img/slider/sl1.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl2.png" alt="photo of clients"></li>
+                    <li class="sliderPhoto-active"><img src="img/slider/sl3.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl4.png" alt="photo of clients"></li>
+                    <li><img src="img/slider/sl5.png" alt="photo of clients"></li>
+                </ul>
+            </div>
+             <!--/.clients__slider -->
+
+        </div>
+        <!-- /.clients__content -->
+    </section>
+    <!-- /.clients -->
+    <section class="formClients">
+        <form class="form" action="#" id="contact">
+            <h2 class="form__title">Give us a good news</h2>
+            <input name="name" type="text" placeholder="Name">
+            <input name="Email" type="text" placeholder="Email">
+            <input name="Subject" type="text" placeholder="Subject">
+            <input name="Your Massage" type="text" placeholder="Your Massage">
+            <input class="submitButton" type="submit" value="Submit">
+        </form>
+            <div class="happyClients">
+                <h2 class="happyClients__title">Our happy client</h2>
+                    <div class="happyClientsBlock">
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Zara.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Barneys.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Calvin.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Converse.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Levis.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Mango.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Gucci.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/nike.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Puma.png" alt="Our happy client"></div>
+                            <div class="happyClientsBlock_photo"><img src="img/logo/Billabong.png" alt="Our happy client"></div>
+                    </div>
+                    <!-- /.happyClients__right -->
+            </div>
+        <!-- /.happyClients -->
+    </section>
+    <!-- /.form -->
+    <section class="footer" id="cont">
+        <div class="footerContent">
+            <div class="footerOverlay">
+                <div class="footerWraper">
+                        <div class="footerContent__logo">
+                            <img src="img/logo1.png" alt="logo footer">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, consequatur corporis ducimus eaque est fugit nam nobis obcaecati quam vitae? Facere numquam suscipit ut. Placeat.</p>
+                        </div>
+            <!-- /.footerContent__logo -->
+                        <div class="footerContent__studio">
+                            <h3 class="footerTitle">Our studio</h3>
+
+                            <p><img src="img/geo.png" alt="geo adres">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat 11480 - Indonesia</p>
+                            <p class="footerContent__studio-phone"><img src="img/phone.png" alt="logo phone">+380506927473</p>
+                        </div>
+            <!-- /.footerContent__studio -->
+                        <div class="footerContent__stay">
+                            <h3 class="footerTitle">Stay in touch</h3>
+                            <form action="#" class="subscribe" id="subscribe">
+                                <input class="ourNewsletter" name="Email" type="text" placeholder="Subscribe our newsletter">
+                                <input class="subscribe__button" type="submit" value="">
+                            </form>
+                            <!-- /.subscribe -->
+                            <div class="comunication">
+                                <div class="comunication__logo"><i class="fab fa-facebook-f"></i></div>
+                                <div class="comunication__logo"><i class="fab fa-twitter"></i></div>
+                                <div class="comunication__logo"><i class="fas fa-globe"></i></div>
+                                <div class="comunication__logo"><i class="fab fa-instagram"></i></div>
+                                <div class="comunication__logo"><i class="fab fa-google-plus-g"></i></div>
+                                <div class="comunication__logo"><i class="fab fa-youtube"></i></div>
+                            </div>
+                            <!-- /.comunication -->
+                        </div>
+                        <!-- /.footerContent__stay -->
+                    </div>
+                        <!-- /.footerContent -->
+                        <div class="footer__menu">
+                            <a href="#">Help</a>
+                            <a href="#">TERMS & CONDITION</a>
+                            <a href="#">PRIVACY</a>
+                            <p>Copyright © 2019 - Tajem Creative</p>
+                        </div>
+            </div>
+            <!-- /.footerWraper -->
+        </div>
+        <!-- /.footer__copyright -->
+    </section>
+    <!-- /.footer -->
+ <a href="#" class="scrollup"></a></body>
+</html>
